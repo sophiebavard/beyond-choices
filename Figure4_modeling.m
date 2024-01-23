@@ -145,5 +145,9 @@ scatterCorrColorSpear(learning_data.acc_obs_cond2(:,4),nanmean(model.accuracy_pr
 subplot(2,2,4)
 scatterCorrColorSpear(learning_data.acc_obs_cond1(:,4),nanmean(model.accuracy_pref1(4,:,:),3)',1,0,30,Colors(4,:)); xlim(limits1); ylim(limits1); pbaspect([1 1 1]);
 
+%%
 
+function s = sem(x)
+s = nanstd(x)/sqrt(length(x));
+end
 
