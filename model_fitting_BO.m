@@ -320,4 +320,6 @@ accuracy_pref4(2,:,:) = 1-abs(pref_dict-simu4(4:12:end,:)');
 accuracy_pref4(3,:,:) = 1-abs(pref_dict-simu4(8:12:end,:)');
 accuracy_pref4(4,:,:) = 1-abs(pref_dict-simu4(12:12:end,:)');
 
+%%
 
+save data_fitting_BO
