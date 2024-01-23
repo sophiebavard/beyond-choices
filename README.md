@@ -19,7 +19,7 @@ The scripts load the files *data_fig.mat*, *data_playDG16.mat*, *data_fitting_RL
 ## Functions   
 File *function_fit_simu.m* contains the algorithms used to fit and simulate the data for all models presented in the main text.   
 File *wfpt.m* is the first passage time for Wiener diffusion model. Approximation based on Navarro & Fuss (2009).   
-Files *SurfaceCurvePlot.m*, *SurfaceCurvePlotSmooth_model2.m*, *scatterCorrColorSpear.m*, *violinplotSB.m*  were created and used for visual purposes. Created by Sophie Bavard, 2023.
+Files *SurfaceCurvePlot.m*, *SurfaceCurvePlot_model2.m*, *scatterCorrColorSpear.m*, *violinplotSB.m*  were created and used for visual purposes. Created by Sophie Bavard, 2023.
 
 ## Data: playing the Dictator Game
   
