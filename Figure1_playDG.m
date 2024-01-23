@@ -5,7 +5,7 @@ clear
 load data_playDG16.mat
 
 % COLUMN 1  = participant's number
-% COLUMN 2  = choice (1 left, 0 right)
+% COLUMN 2  = choice (-1 left, 1 right)
 % COLUMN 3  = RT in seconds
 % COLUMN 4  = proportion of won points for left option
 % COLUMN 5  = proportion of won points for right option
