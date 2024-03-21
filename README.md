@@ -1,8 +1,14 @@
 # Beyond Choices
-This is the repository where I am storing the data and code used to generate behavioural analyses for the paper:   
+This is the repository storing the data and code used to generate behavioural analyses for the paper:   
 >__Beyond choices: humans can infer social preferences from decision speed alone__   
 Sophie Bavard, Erik Stuchlý, Arkady Konovalov, Sebastian Gluth   
 [https://osf.io/preprints/psyarxiv/38yrw](https://osf.io/preprints/psyarxiv/38yrw)
+
+## Data availability
+All raw data matrices are provided in .mat and .csv formats. 
+
+>[!NOTE]
+>Variable and column names are described below, please contact me if any question arises.
 
 ## Behavioral analyses   
 Run the *behavioral_analyses_obsDG.m* script to produce *data_fig.mat*.   
@@ -22,6 +28,10 @@ File *wfpt.m* is the first passage time for Wiener diffusion model. Approximatio
 Files *SurfaceCurvePlot.m*, *SurfaceCurvePlot_model2.m*, *scatterCorrColorSpear.m*, *violinplotSB.m*  were created and used for visual purposes. Created by Sophie Bavard, 2023.
 
 ## Data: playing the Dictator Game
+```
+data_playDG16
+data_playDG46
+```
   
 * COLUMN 1  = participant's number
 * COLUMN 2  = choice (-1 left, 1 right)
@@ -30,8 +40,14 @@ Files *SurfaceCurvePlot.m*, *SurfaceCurvePlot_model2.m*, *scatterCorrColorSpear.
 * COLUMN 5  = proportion of won points for right option
   
 ## Data: observing the Dictator Game
+```
+data_observeDG
+```
 
 ### Estimation data
+```
+dataEsti
+```
 * COLUMN 1  = participant's number
 * COLUMN 2  = condition (1 = both, 2 = ch, 3 = RT, 4 = none)
 * COLUMN 3  = estimation number
@@ -39,9 +55,12 @@ Files *SurfaceCurvePlot.m*, *SurfaceCurvePlot_model2.m*, *scatterCorrColorSpear.
 * COLUMN 5  = dictator's preferred allocation
 * COLUMN 6  = estimated allocation
 * COLUMN 7  = response time
-* COLUMN 8  = prediction accuracy
+* COLUMN 8  = estimation accuracy
 
 ### Prediction data
+```
+dataPred
+```
 * COLUMN 1  = participant's number
 * COLUMN 2  = condition (1 = both, 2 = ch, 3 = RT, 4 = none)
 * COLUMN 3  = dictator's number
@@ -58,6 +77,9 @@ Files *SurfaceCurvePlot.m*, *SurfaceCurvePlot_model2.m*, *scatterCorrColorSpear.
 * COLUMN 14 = observer's similarity with dictator
 
 ### Time Perception data
+```
+dataTP
+```
 * COLUMN 1  = participant's number
 * COLUMN 2  = choice (-1 = second shorter, 1 = second longer)
 * COLUMN 3  = response time
