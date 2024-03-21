@@ -8,7 +8,7 @@ Sophie Bavard, Erik Stuchlý, Arkady Konovalov, Sebastian Gluth
 All raw data matrices are provided in .mat and .csv formats. 
 
 >[!NOTE]
->Variable and column names are described below, please contact me if any question arises.
+>Variable and column names are described below, please contact me if any question arises. The preregistration document is publically available on OSF: https://doi.org/10.17605/OSF.IO/TZ4DQ
 
 ## Behavioral analyses   
 Run the *behavioral_analyses_obsDG.m* script to produce *data_fig.mat*.   
