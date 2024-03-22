@@ -1,4 +1,6 @@
 # Beyond Choices
+[![DOI](https://zenodo.org/badge/697825838.svg)](https://zenodo.org/doi/10.5281/zenodo.10852803)
+
 This is the repository storing the data and code used to generate behavioural analyses for the paper:   
 >__Beyond choices: humans can infer social preferences from decision speed alone__   
 Sophie Bavard, Erik Stuchlý, Arkady Konovalov, Sebastian Gluth   
