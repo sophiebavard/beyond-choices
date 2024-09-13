@@ -4,7 +4,7 @@
 This is the repository storing the data and code used to generate behavioural analyses for the paper:   
 >__Beyond choices: humans can infer social preferences from decision speed alone__   
 Sophie Bavard, Erik Stuchlý, Arkady Konovalov, Sebastian Gluth   
-[https://osf.io/preprints/psyarxiv/38yrw](https://osf.io/preprints/psyarxiv/38yrw)
+[https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002686](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002686)
 
 ## Data availability
 All raw data matrices are provided in .mat and .csv formats. 
